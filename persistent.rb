@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'mvn:org.clojure:clojure'
 
-java_import Java::clojure.lang.PersistentHashMap
+java_import 'clojure.lang.PersistentHashMap'
 
 ruby_hash = {"a" => 100, "b" => 300, "c" => 50}
 
